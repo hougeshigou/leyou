@@ -1,0 +1,14 @@
+#将一些常量抽取到yml文件中
+leyou:
+  sms:
+    accessKeyId: LTAI4FfjafbtgVkLupzfgQ8M     #阿里云accessKeyId
+    accessKeySecret: 41BUnPsdIfMGm7vg3tGPyMS7uLHwrC    #阿里云AccessKeySecret
+    signName: 乐优商城注册                 # 签名名称
+    verifyCodeTemplate: SMS_176943372 # 模板名称
+
+spring:
+  rabbitmq:
+    virtual-host: /leyou
+    username: lajilinux
+    password: 111111
+    host: 192.168.218.129
