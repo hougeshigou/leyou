@@ -18,11 +18,6 @@ import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * description
- *
- * @author 文攀 2019/10/31 14:41
- */
 @SpringBootTest(classes = ElasticSearchApplication.class)
 @RunWith(SpringRunner.class)
 public class ElasticSearchTest {
